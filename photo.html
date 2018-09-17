@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test-viseven</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+<<<<<<< HEAD
+  <link rel="stylesheet" type="text/css" href="css/photo.css">
+</head>
+<body>
+ <header>
+    <div class="container user-block">
+      <div class="user-info">
+        <img src="images/user-img/avatar.png" alt="avatar">
+=======
+</head>
+<body>
+  <header>
+    <div class="container user-block">
+      <div class="user-info">
+        <img src="images/avatar.png" alt="avatar">
+>>>>>>> 9e75a2a5bf64743d5e60d21c7c0c2543fd897823
+      </div>
+      <div class="user-desc">
+        <h1>Andrew Sokolovsky</h1>
+        <ul>
+          <li class="work">Manager</li>
+          <li class="city">Lives in Kiev</li>
+          <li class="setting">66 have you in circles</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+<<<<<<< HEAD
+  <section class="navigation">
+    <nav class="container">
+      <a href="index.html" >about</a>
+      <a href="photo.html" class="active">photos</a>
+    </nav>
+  </section>
+  <article class="content">
+    <div class="container">
+      <div class="filter-photos">
+        <p>Show me:</p>
+        <nav class="filte-items">
+          <a href="#" class="active-items">All</a>
+          <a href="#">Architecture</a>
+          <a href="#">Images</a>
+          <a href="#">Nature</a>
+          <a href="#">Photography</a>
+          <a href="#">Videos</a>
+        </nav>
+      </div>
+      <div id="galleryList" class="gallery"></div>
+    </div> 
+  </article>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModalBtn" class="close">&times;</span>
+      <img src="" />
+    </div>
+  </div>
+=======
+  <div class="tab">
+    <nav class="navigation container">
+      <a href="#" class="tablinks" onclick="openTab(event, 'about')"  id="defaultOpen">about</a>
+      <a href="photo.html" class="tablinks" onclick="openTab(event, 'photos')">photos</a>
+    </nav>
+  </div>
+  <div class="tab-content">
+    <div class="container">
+      
+      <article id="photos" class="tabcontent">
+        <div class="container">
+          <div class="filter-photos">
+            <p>Show me:</p>
+            <nav class="filte-items">
+              <a href="#" class="active-items">All</a>
+              <a href="#">Architecture</a>
+              <a href="#">Images</a>
+              <a href="#">Nature</a>
+              <a href="#">Photography</a>
+              <a href="#">Videos</a>
+            </nav>
+          </div>
+          <div class="gallery">
+            <div class="gallery-wrapper">
+                <img src="images/small-img1.png" class="hover-shadow image" alt="small-img">
+              <div class="middle-hover">
+                <div class="text" onclick="openModal();currentSlide(1)" ><img src="images/Forma_1.png"></div>
+              </div>
+            </div>
+            <div class="gallery-wrapper">
+                <img src="images/small-img2.png" class="hover-shadow image-gallery" alt="small-img">
+              <div class="middle-hover">
+                <div class="text" onclick="openModal();currentSlide(2)" ><img src="images/Forma_1.png"></div>
+              </div>
+            </div>
+            <div class="gallery-wrapper">
+                <img src="images/small-img3.png" class="hover-shadow image-gallery" alt="small-img">
+              <div class="middle-hover">
+                <div class="text" onclick="openModal();currentSlide(3)" ><img src="images/Forma_1.png"></div>
+              </div>
+            </div>
+            <div class="gallery-wrapper">
+                <img src="images/small-img4.png" class="hover-shadow image-gallery" alt="small-img">
+              <div class="middle-hover">
+                <div class="text" onclick="openModal();currentSlide(4)" ><img src="images/Forma_1.png"></div>
+              </div>
+            </div>
+            <div class="gallery-wrapper">
+                <img src="images/small-img5.png" class="hover-shadow image-gallery" alt="small-img">
+              <div class="middle-hover">
+                <div class="text" onclick="openModal();currentSlide(5)" ><img src="images/Forma_1.png"></div>
+              </div>
+            </div>
+            <div class="gallery-wrapper">
+                <img src="images/small-img6.png" class="hover-shadow image-gallery" alt="small-img">
+              <div class="middle-hover">
+                <div class="text" onclick="openModal();currentSlide(6)" ><img src="images/Forma_1.png"></div>
+              </div>
+            </div>
+            <div class="gallery-wrapper">
+                <img src="images/small-img7.png" class="hover-shadow image-gallery" alt="small-img">
+              <div class="middle-hover">
+                <div class="text" onclick="openModal();currentSlide(7)" ><img src="images/Forma_1.png"></div>
+              </div>
+            </div>
+            <div class="gallery-wrapper">
+                <img src="images/small-img8.png" class="hover-shadow image-gallery" alt="small-img">
+              <div class="middle-hover">
+                <div class="text" onclick="openModal();currentSlide(8)" ><img src="images/Forma_1.png"></div>
+              </div>
+            </div>
+            <div class="gallery-wrapper">
+                <img src="images/small-img9.png" class="hover-shadow image-gallery" alt="small-img">
+              <div class="middle-hover">
+                <div class="text" onclick="openModal();currentSlide(9)" ><img src="images/Forma_1.png"></div>
+              </div>
+            </div>
+            <div class="gallery-wrapper">
+                <img src="images/small-img10.png" class="hover-shadow image-gallery" alt="small-img">
+              <div class="middle-hover">
+                <div class="text" onclick="openModal();currentSlide(10)" ><img src="images/Forma_1.png"></div>
+              </div>
+            </div>
+            <div class="gallery-wrapper">
+                <img src="images/small-img11.png" class="hover-shadow image-gallery" alt="small-img">
+              <div class="middle-hover">
+                <div class="text" onclick="openModal();currentSlide(11)" ><img src="images/Forma_1.png"></div>
+              </div>
+            </div>
+            <div class="gallery-wrapper">
+                <img src="images/small-img12.png" class="hover-shadow image-gallery" alt="small-img">
+              <div class="middle-hover">
+                <div class="text" onclick="openModal();currentSlide(12)" ><img src="images/Forma_1.png"></div>
+              </div>
+            </div>
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="mySlides">
+                  <img src="images/big-img1.png" alt="big-img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/big-img2.png" alt="big-img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/big-img3.png" alt="big-img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/big-img4.png" alt="big-img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/big-img5.png" alt="big-img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/big-img6.png" alt="big-img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/big-img7.png" alt="big-img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/big-img8.png" alt="big-img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/big-img9.png" alt="big-img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/big-img10.png" alt="big-img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/big-img11.png" alt="big-img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/big-img12.png" alt="big-img">
+                </div>
+                <div class="mySlides">
+                  <img src="images/big-img12.png" alt="big-img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </article>
+    </div>
+  </div>
+  <script src="js/tabs.js"></script>
+>>>>>>> 9e75a2a5bf64743d5e60d21c7c0c2543fd897823
+  <script src="js/gallery.js"></script>
+</body>
+</html>
